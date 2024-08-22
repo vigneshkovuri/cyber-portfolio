@@ -1,0 +1,153 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?cybersecurity,technology') no-repeat center center/cover;
+    color: #fff;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 5px solid #28a745;
+}
+
+header img.profile-pic {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #28a745; /* Green border */
+    object-fit: cover; /* Ensure image fits well within the circle */
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 700; /* Bold and strong */
+    margin-bottom: 10px;
+    color: #fff; /* White color for name */
+}
+
+header p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #fff; /* White color for "Cybersecurity Enthusiast" */
+}
+
+/* Section Styles */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #28a745;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #28a745;
+    padding-bottom: 10px;
+}
+
+/* Text Styling */
+strong {
+    font-weight: 600;
+}
+
+b {
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.8); /* Darker background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #1e90ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+    }
+
+    header img.profile-pic {
+        width: 100px;
+        height: 100px;
+        top: 10px;
+        right: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
